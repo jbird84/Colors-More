@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ADF8F5D23B2B4670043A39B /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF8F5C23B2B4670043A39B /* Shapes.swift */; };
+		5ADF8F5F23B2BB0F0043A39B /* ShapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF8F5E23B2BB0F0043A39B /* ShapeCollectionViewCell.swift */; };
 		DABC2EBB23AEF22E00B67351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC2EBA23AEF22E00B67351 /* AppDelegate.swift */; };
 		DABC2EBD23AEF22E00B67351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC2EBC23AEF22E00B67351 /* SceneDelegate.swift */; };
 		DABC2EBF23AEF22E00B67351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC2EBE23AEF22E00B67351 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5ADF8F5C23B2B4670043A39B /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		5ADF8F5E23B2BB0F0043A39B /* ShapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCollectionViewCell.swift; sourceTree = "<group>"; };
 		DABC2EB723AEF22E00B67351 /* Colors & More.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors & More.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABC2EBA23AEF22E00B67351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABC2EBC23AEF22E00B67351 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ADF8F5B23B2B4580043A39B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ADF8F5C23B2B4670043A39B /* Shapes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DABC2EAE23AEF22E00B67351 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 		DABC2EB923AEF22E00B67351 /* Colors & More */ = {
 			isa = PBXGroup;
 			children = (
+				5ADF8F5B23B2B4580043A39B /* Models */,
 				DABC2EBA23AEF22E00B67351 /* AppDelegate.swift */,
 				DABC2EBC23AEF22E00B67351 /* SceneDelegate.swift */,
 				DABC2EBE23AEF22E00B67351 /* ViewController.swift */,
@@ -72,6 +85,7 @@
 				DABC2ECE23AF1EB900B67351 /* ShapesSkillLevelVC.swift */,
 				DABC2ED023AF2A3D00B67351 /* ShapesGameVC.swift */,
 				DABC2ED223AFC6FA00B67351 /* Arrays.swift */,
+				5ADF8F5E23B2BB0F0043A39B /* ShapeCollectionViewCell.swift */,
 			);
 			path = "Colors & More";
 			sourceTree = "<group>";
@@ -147,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADF8F5F23B2BB0F0043A39B /* ShapeCollectionViewCell.swift in Sources */,
+				5ADF8F5D23B2B4670043A39B /* Shapes.swift in Sources */,
 				DABC2ED123AF2A3D00B67351 /* ShapesGameVC.swift in Sources */,
 				DABC2ED323AFC6FA00B67351 /* Arrays.swift in Sources */,
 				DABC2EBF23AEF22E00B67351 /* ViewController.swift in Sources */,

@@ -10,6 +10,7 @@ import UIKit
 
 class ShapesSkillLevelVC: UIViewController {
 
+    @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var skillOneButton: UIButton!
     @IBOutlet weak var skillTwoButton: UIButton!
     @IBOutlet weak var skillThreeButton: UIButton!
@@ -35,4 +36,7 @@ class ShapesSkillLevelVC: UIViewController {
     @IBAction func skillThreeButtonTapped(_ sender: Any) {
     }
     
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
+    }
 }
